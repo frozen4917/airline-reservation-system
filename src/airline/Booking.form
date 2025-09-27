@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="passengerTitleLabel" max="32767" attributes="0"/>
+                  <Component id="titleLabel" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="arrLabel" alignment="0" max="32767" attributes="0"/>
+                          <Component id="depLabel" alignment="0" pref="325" max="32767" attributes="0"/>
+                          <Component id="flightNumberLabel" alignment="0" min="-2" pref="243" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="depTimeLabel" max="32767" attributes="0"/>
+                          <Component id="arrTimeLabel" max="32767" attributes="0"/>
+                          <Component id="airlineLabel" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="economyHeaderLabel" min="-2" pref="305" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="businessHeaderLabel" min="-2" pref="305" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="eBaseFareLabel" min="-2" pref="305" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="ePassengersLabel" min="-2" pref="120" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="economyCountSpinner" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="unrelated" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="bPassengersLabel" min="-2" pref="115" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="businessCountSpinner" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="bBaseFareLabel" min="-2" pref="305" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="eTotalFareLabel" min="-2" pref="305" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="bTotalFareLabel" min="-2" pref="305" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="confirmationTitleLabel" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="totalPassengersLabel" alignment="0" min="-2" pref="305" max="-2" attributes="0"/>
+                          <Component id="returnBackButton" alignment="0" min="-2" pref="116" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="bookReservationButton" max="32767" attributes="0"/>
+                          <Component id="totalFareLabel" pref="305" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="titleLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="flightNumberLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="airlineLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="depLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="depTimeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="arrLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="arrTimeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="passengerTitleLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="businessHeaderLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="economyHeaderLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="eBaseFareLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="bBaseFareLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="ePassengersLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="economyCountSpinner" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="bPassengersLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="businessCountSpinner" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="eTotalFareLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="bTotalFareLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="confirmationTitleLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="totalPassengersLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="totalFareLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="45" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="returnBackButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="bookReservationButton" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="titleLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="BOOKING RESERVATION"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="flightNumberLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Flight number: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="depLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Departure Airport: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="arrLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Arrival Airport: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="depTimeLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Departure Time: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="arrTimeLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Arrival Time: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="airlineLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Airline:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="passengerTitleLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="NUMBER OF PASSENGERS"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="businessHeaderLabel">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Business"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="economyHeaderLabel">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Economy"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="economyCountSpinner">
+      <Properties>
+        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+          <SpinnerModel initial="0" maximum="9" minimum="0" numberType="java.lang.Integer" stepSize="1" type="number"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="eBaseFareLabel">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+        <Property name="text" type="java.lang.String" value="Economy Base Fare:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="bBaseFareLabel">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+        <Property name="text" type="java.lang.String" value="Business Base Fare:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ePassengersLabel">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+        <Property name="text" type="java.lang.String" value="Economy Passengers:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="bPassengersLabel">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+        <Property name="text" type="java.lang.String" value="Business Passengers:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="businessCountSpinner">
+      <Properties>
+        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+          <SpinnerModel initial="0" maximum="9" minimum="0" numberType="java.lang.Integer" stepSize="1" type="number"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="eTotalFareLabel">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+        <Property name="text" type="java.lang.String" value="Economy Total Fare:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="bTotalFareLabel">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+        <Property name="text" type="java.lang.String" value="Business Total Fare:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="confirmationTitleLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="CONFIRMATION"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="totalPassengersLabel">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+        <Property name="text" type="java.lang.String" value="Total passengers:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="totalFareLabel">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+        <Property name="text" type="java.lang.String" value="Total fare:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="bookReservationButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="PAY 0 AND BOOK RESERVATION"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bookReservationButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="returnBackButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Return back"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="returnBackButtonActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

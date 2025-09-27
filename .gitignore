@@ -1,0 +1,14 @@
+# NetBeans IDE specific
+/nbproject/private/
+/build/
+/dist/
+/nbbuild/
+.nb-gradle/
+
+# IDE-generated user files
+.nb-user
+.netbeans_automatic_build
+.netbeans_update_resources
+
+# Ignore the config file with the password
+src/config.properties
