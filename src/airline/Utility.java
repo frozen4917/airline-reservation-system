@@ -107,8 +107,8 @@ public class Utility {
      * ⚠ ⚠ THIS IS JUST USED AS A DEMONSTRATION FOR THIS PROJECT
      */
     public static class Hash { 
-        private static final long FNV_64_BASIS = Long.parseUnsignedLong(Config.getConfigProperty("FNV_64_BASIS")); // Basis number, from confiig.properties
-        private static final long FNV_64_PRIME = Long.parseUnsignedLong(Config.getConfigProperty("FNV_64_PRIME")); // Prime number, from config.properties
+        private static final long FNV_64_BASIS = Long.parseUnsignedLong(Config.getConfigProperty("FNV_64_BASIS").trim()); // Basis number, from confiig.properties
+        private static final long FNV_64_PRIME = Long.parseUnsignedLong(Config.getConfigProperty("FNV_64_PRIME").trim()); // Prime number, from config.properties
                 
         /**
          * Utility.Hash.hash64(text) : Converts text into FNV-1a hash and returns integer(long) representation
