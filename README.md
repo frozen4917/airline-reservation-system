@@ -82,3 +82,16 @@ After a successful build, you can run the application in two ways:
 > 
 > It is a non-cryptographic hash function and is **NOT SECURE** for storing passwords in a real-world, production environment.
 > For production systems, always use a modern, salted, and cryptographically secure hashing algorithm like Argon2, scrypt, or bcrypt.
+
+## What I Learned
+
+- **GUI development**: Building user-friendly interfaces with Java Swing components (JFrame, JPanel, JTable)
+- **Database integration**: Connecting Java applications to MySQL using JDBC
+- **SQL queries**: Writing complex queries for user login/registration, searching flights, and booking
+- **Event-driven programming**: Handling button clicks, form submissions, and user interactions
+- **Hashing Algorithms**: Implementing a basic hashing algorithm(in this case, FNV-1a) from scratch to understand hashing fundamentals
+- **SQL injection prevention**: Using PreparedStatement to parameterize queries
+- **Data validation**: Client-side and server-side validation for user inputs
+- **Database design**: Creating normalized schemas with primary keys, foreign keys, and relationships
+- **Project planning**: Breaking down a large project into manageable modules
+- **Testing**: Manually testing various user flows and edge cases
